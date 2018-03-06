@@ -1,18 +1,19 @@
 body{
-  background: linear-gradient(#9ee8ff 1000px, #d6fffe 5000px, #e8fffc 8000px);
+  background: linear-gradient(#9ee8ff 1000px, #bdebf9 5000px, #cef3ff 8000px);
 }
 
 #counter {
   border: 1px solid red;
   position: absolute;
-  top: 250px;
-  left: 0;
+  top: 600px;
+  left: 10%;
   margin: 0;
-  padding:10px;
-  width: 100px;
+  width: 200px;
   height: 200px;
-  line-height: 100px;
-  text-align: center
+  border-radius: 50%;
+  border: 5px solid #fff;
+  text-align: center;
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
 }
 
 #canvas {
@@ -20,7 +21,7 @@ body{
   position: relative;
   margin: 0 auto;
   width: 1500px;
-  height: 10020px;
+  height: 10000px;
   padding: 0;
 }
 
@@ -32,7 +33,7 @@ body{
   padding: 0;
 }
 
-#phone1 {
+#board1 {
   border: 1px solid yellow;
   margin: 0 auto;
   width: 1500px;
@@ -41,11 +42,11 @@ body{
 }
 
 #square1 {
-  width: 12em;
-  height: 20em;
+  width: 600px;
+  height: 493px;
   position: absolute;
-  top: 1050px;
-  left: 400px;
+  top: 1000px;
+  left: 50px;
   background-color: #87caff;
   border: 3px solid #fff;
   color: #fff;
@@ -55,12 +56,12 @@ body{
   animation: float 5s ease-in-out infinite;
 }
 
-#board1 {
-  width: 40em;
-  height: 30em;
+#phone1 {
+  width: 400px;
+  height: 300px;
   position: absolute;
-  top: 1400px;
-  left: 700px;
+  top: 1600px;
+  left: 800px;
   background-color: #9acdf4;
   border: 3px solid #fff;
   color: #fff;
@@ -70,7 +71,13 @@ body{
   animation: float 6s ease-in-out infinite;
 }
 
-#phone2 {
+#info1 {
+  position: absolute;
+  top: 1050px;
+  left: 800px;
+}
+
+#board2 {
   border: 1px solid orange;
   margin: 0 auto;
   width: 1500px;
@@ -79,11 +86,11 @@ body{
 }
 
 #square2 {
-  width: 10em;
-  height: 15em;
+  width: 500px;
+  height: 500px;
   position: absolute;
-  top: 2300px;
-  left: 1000px;
+  top: 2000px;
+  left: 100px;
   background-color: #8ac5cc;
   border: 3px solid #fff;
   color: #fff;
@@ -93,13 +100,12 @@ body{
   animation: float 6s ease-in-out infinite;
 }
 
-#circle2 {
-    width: 10em;
-    height: 10em;
+#phone2 {
+    width: 300px;
+    height: 300px;
     position: absolute;
-    top: 2200px;
-    left: 350px;
-    border-radius: 50%;
+    top: 2400px;
+    left: 900px;
     background-color: #ace8ef;
     border: 3px solid #fff;
     color: #fff;
@@ -109,7 +115,13 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
-#phone3 {
+#info2 {
+  position: absolute;
+  top: 2000px;
+  left: 800px;
+}
+
+#board3 {
   border: 1px solid green;
   margin: 0 auto;
   width: 1500px;
@@ -118,11 +130,11 @@ body{
 }
 
 #square3 {
-  width: 12em;
-  height: 17em;
+  width: 425px;
+  height: 600px;
   position: absolute;
-  top: 3200px;
-  left: 850px;
+  top: 3000px;
+  left: 100px;
   background-color: #6ed3a3;
   border: 3px solid #fff;
   color: #fff;
@@ -132,13 +144,12 @@ body{
   animation: float 4s ease-in-out infinite;
 }
 
-#circle3 {
-    width: 10em;
-    height: 10em;
+#phone3 {
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 3400px;
-    left: 250px;
-    border-radius: 50%;
+    top: 3500px;
+    left: 900px;
     background-color: #acefcf;
     border: 3px solid #fff;
     color: #fff;
@@ -148,7 +159,13 @@ body{
     animation: float 6s ease-in-out infinite;
 }
 
-#phone4 {
+#info3 {
+  position: absolute;
+  top: 3000px;
+  left: 800px;
+}
+
+#board4 {
   border: 1px solid yellow;
   margin: 0 auto;
   width: 1500px;
@@ -157,11 +174,11 @@ body{
 }
 
 #square4 {
-  width: 10em;
-  height: 15em;
+  width: 500px;
+  height: 500px;
   position: absolute;
-  top: 4300px;
-  left: 1200px;
+  top: 4000px;
+  left: 100px;
   background-color: #61ad6a;
   border: 3px solid #fff;
   color: #fff;
@@ -171,13 +188,12 @@ body{
   animation: float 6s ease-in-out infinite;
 }
 
-#circle4 {
-    width: 12em;
-    height: 12em;
+#phone4 {
+    width: 625px;
+    height: 300px;
     position: absolute;
-    top: 4100px;
-    left: 300px;
-    border-radius: 50%;
+    top: 4400px;
+    left: 700px;
     background-color: #a5e5ac;
     border: 3px solid #fff;
     color: #fff;
@@ -187,7 +203,7 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
-#phone5 {
+#board5 {
   border: 1px solid orange;
   margin: 0 auto;
   width: 1500px;
@@ -196,11 +212,11 @@ body{
 }
 
 #square5 {
-  width: 10em;
-  height: 13em;
+  width: 700px;
+  height: 450px;
   position: absolute;
-  top: 5200px;
-  left: 1100px;
+  top: 5000px;
+  left: 100px;
   background-color: #85d170;
   border: 3px solid #fff;
   color: #fff;
@@ -210,13 +226,12 @@ body{
   animation: float 4s ease-in-out infinite;
 }
 
-#circle5 {
-    width: 12em;
-    height: 12em;
+#phone5 {
+    width: 300px;
+    height: 420px;
     position: absolute;
-    top: 5300px;
-    left: 200px;
-    border-radius: 50%;
+    top: 5400px;
+    left: 900px;
     background-color: #b3e5a5;
     border: 3px solid #fff;
     color: #fff;
@@ -226,7 +241,7 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
-#phone6 {
+#board6 {
   border: 1px solid green;
   margin: 0 auto;
   width: 1500px;
@@ -235,11 +250,11 @@ body{
 }
 
 #square6 {
-  width: 10em;
-  height: 15em;
+  width: 500px;
+  height: 400px;
   position: absolute;
-  top: 6600px;
-  left: 1000px;
+  top: 6000px;
+  left: 100px;
   background-color: #a4c665;
   border: 3px solid #fff;
   color: #fff;
@@ -249,13 +264,12 @@ body{
   animation: float 5s ease-in-out infinite;
 }
 
-#circle6 {
-    width: 11em;
-    height: 11em;
+#phone6 {
+    width: 400px;
+    height: 350px;
     position: absolute;
-    top: 6100px;
-    left: 300px;
-    border-radius: 50%;
+    top: 6400px;
+    left: 900px;
     background-color: #d0e8a4;
     border: 3px solid #fff;
     color: #fff;
@@ -265,7 +279,7 @@ body{
     animation: float 7s ease-in-out infinite;
 }
 
-#phone7 {
+#board7 {
   border: 1px solid yellow;
   margin: 0 auto;
   width: 1500px;
@@ -274,11 +288,11 @@ body{
 }
 
 #square7 {
-  width: 10em;
-  height: 15em;
+  width: 640px;
+  height: 480px;
   position: absolute;
-  top: 7100px;
-  left: 1200px;
+  top: 7000px;
+  left: 100px;
   background-color: #d2d66b;
   border: 3px solid #fff;
   color: #fff;
@@ -288,13 +302,12 @@ body{
   animation: float 6s ease-in-out infinite;
 }
 
-#circle7 {
-    width: 13em;
-    height: 13em;
+#phone7 {
+    width: 400px;
+    height: 320px;
     position: absolute;
-    top: 7300px;
-    left: 400px;
-    border-radius: 50%;
+    top: 7400px;
+    left: 900px;
     background-color: #e3e5b0;
     border: 3px solid #fff;
     color: #fff;
@@ -304,7 +317,7 @@ body{
     animation: float 4s ease-in-out infinite;
 }
 
-#phone8 {
+#board8 {
   border: 1px solid orange;
   margin: 0 auto;
   width: 1500px;
@@ -313,11 +326,11 @@ body{
 }
 
 #square8 {
-  width: 10em;
-  height: 15em;
+  width: 600px;;
+  height: 500px;;
   position: absolute;
-  top: 8100px;
-  left: 1100px;
+  top: 8000px;
+  left: 100px;
   background-color: #e8ab43;
   border: 3px solid #fff;
   color: #fff;
@@ -327,13 +340,12 @@ body{
   animation: float 5s ease-in-out infinite;
 }
 
-#circle8 {
-    width: 10em;
-    height: 10em;
+#phone8 {
+    width: 400px;
+    height: 300px;
     position: absolute;
-    top: 8600px;
-    left: 350px;
-    border-radius: 50%;
+    top: 8400px;
+    left: 900px;
     background-color: #e5d2b0;
     border: 3px solid #fff;
     color: #fff;
@@ -341,45 +353,6 @@ body{
     align-items: center;
     justify-content: center;
     animation: float 4s ease-in-out infinite;
-}
-
-#phone9 {
-  border: 1px solid green;
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
-}
-
-#square9 {
-  width: 10em;
-  height: 15em;
-  position: absolute;
-  top: 9500px;
-  left: 1200px;
-  background-color: #d86c41;
-  border: 3px solid #fff;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  animation: float 7s ease-in-out infinite;
-}
-
-#circle9 {
-    width: 8em;
-    height: 8em;
-    position: absolute;
-    top: 9100px;
-    left: 300px;
-    border-radius: 50%;
-    background-color: #dba590;
-    border: 3px solid #fff;
-    color: #fff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-	  animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -436,45 +409,84 @@ body{
   left: 300px;
 }
 
+#bird1{
+  position: absolute;
+  top: 2200px;
+  left: 300px;
+}
+
+#bird2{
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}
+
+#cloud7{
+  position: absolute;
+  top: 1800px;
+  left: 300px;
+}
+
 .x1 {
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
 	-o-animation: moveclouds 20s linear infinite;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .x2 {
 	-webkit-animation: moveclouds 15s linear infinite;
 	-moz-animation: moveclouds 15s linear infinite;
 	-o-animation: moveclouds 15s linear infinite;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .x3 {
 	-webkit-animation: moveclouds 12s linear infinite;
 	-moz-animation: moveclouds 12s linear infinite;
 	-o-animation: moveclouds 12s linear infinite;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .x4 {
 	-webkit-animation: moveclouds 17s linear infinite;
 	-moz-animation: moveclouds 17s linear infinite;
 	-o-animation: moveclouds 17s linear infinite;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .x5 {
 	-webkit-animation: moveclouds 13s linear infinite;
 	-moz-animation: moveclouds 13s linear infinite;
 	-o-animation: moveclouds 13s linear infinite;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .x6 {
 	-webkit-animation: moveclouds 10s linear infinite;
 	-moz-animation: moveclouds 10s linear infinite;
 	-o-animation: moveclouds 10s linear infinite;
+  opacity: 1;
+}
+
+.x7 {
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+  opacity: 0.8;
+}
+
+.x8 {
+	-webkit-animation: movebirds 17s linear infinite;
+	-moz-animation: movebirds 17s linear infinite;
+	-o-animation: movebirds 17s linear infinite;
+  opacity: 0.7;
+}
+
+.x9 {
+	-webkit-animation: moveclouds 13s linear infinite;
+	-moz-animation: moveclouds 13s linear infinite;
+	-o-animation: moveclouds 13s linear infinite;
   opacity: 0.8;
 }
 
@@ -489,4 +501,17 @@ body{
 @-o-keyframes moveclouds {
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
+}
+
+@-webkit-keyframes movebirds {
+	0% {margin-left: -1000px;}
+	100% {margin-left: 1000px;}
+}
+@-moz-keyframes movebirds {
+	0% {margin-left: -1000px;}
+	100% {margin-left: 1000px;}
+}
+@-o-keyframes movebirds {
+	0% {margin-left: -1000px;}
+	100% {margin-left: 1000px;}
 }
