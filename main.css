@@ -25,6 +25,12 @@ body{
   padding: 0;
 }
 
+#crate1 {
+  position: absolute;
+  top: 9550px;
+  left: 50px;
+}
+
 #home {
   border: 1px solid green;
   margin: 0 auto;
@@ -45,7 +51,7 @@ body{
   width: 600px;
   height: 493px;
   position: absolute;
-  top: 1000px;
+  top: 1100px;
   left: 50px;
   background-color: #87caff;
   border: 3px solid #fff;
@@ -89,7 +95,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 2000px;
+  top: 2100px;
   left: 100px;
   background-color: #8ac5cc;
   border: 3px solid #fff;
@@ -133,7 +139,7 @@ body{
   width: 425px;
   height: 600px;
   position: absolute;
-  top: 3000px;
+  top: 3100px;
   left: 100px;
   background-color: #6ed3a3;
   border: 3px solid #fff;
@@ -177,7 +183,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 4000px;
+  top: 4100px;
   left: 100px;
   background-color: #61ad6a;
   border: 3px solid #fff;
@@ -215,7 +221,7 @@ body{
   width: 700px;
   height: 450px;
   position: absolute;
-  top: 5000px;
+  top: 5100px;
   left: 100px;
   background-color: #85d170;
   border: 3px solid #fff;
@@ -253,7 +259,7 @@ body{
   width: 500px;
   height: 400px;
   position: absolute;
-  top: 6000px;
+  top: 6100px;
   left: 100px;
   background-color: #a4c665;
   border: 3px solid #fff;
@@ -288,10 +294,10 @@ body{
 }
 
 #square7 {
-  width: 640px;
-  height: 480px;
+  width: 450px;
+  height: 350px;
   position: absolute;
-  top: 7000px;
+  top: 7100px;
   left: 100px;
   background-color: #d2d66b;
   border: 3px solid #fff;
@@ -303,8 +309,8 @@ body{
 }
 
 #phone7 {
-    width: 400px;
-    height: 320px;
+    width: 350px;
+    height: 250px;
     position: absolute;
     top: 7400px;
     left: 900px;
@@ -326,10 +332,10 @@ body{
 }
 
 #square8 {
-  width: 600px;;
-  height: 500px;;
+  width: 400px;;
+  height: 300px;;
   position: absolute;
-  top: 8000px;
+  top: 8100px;
   left: 100px;
   background-color: #e8ab43;
   border: 3px solid #fff;
@@ -341,7 +347,7 @@ body{
 }
 
 #phone8 {
-    width: 400px;
+    width: 300px;
     height: 300px;
     position: absolute;
     top: 8400px;

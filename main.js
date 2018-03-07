@@ -14,7 +14,7 @@ window.onscroll = function (){
     //test if it works
     console.log(fromTop);
 
-    counter.style.top = 600 + fromTop + "px";
+    counter.style.top = 500 + fromTop + "px";
 
     if (fromTop > 700){
       counter.style.backgroundImage = "url(images/year1.png)";
