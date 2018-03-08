@@ -25,12 +25,6 @@ body{
   padding: 0;
 }
 
-#crate1 {
-  position: absolute;
-  top: 9550px;
-  left: 50px;
-}
-
 #home {
   border: 1px solid green;
   margin: 0 auto;
@@ -48,8 +42,8 @@ body{
 }
 
 #square1 {
-  width: 600px;
-  height: 493px;
+  width: 400px;
+  height: 350px;
   position: absolute;
   top: 1100px;
   left: 50px;
@@ -63,8 +57,8 @@ body{
 }
 
 #phone1 {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   position: absolute;
   top: 1600px;
   left: 800px;
@@ -92,8 +86,8 @@ body{
 }
 
 #square2 {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: 2100px;
   left: 100px;
@@ -107,8 +101,8 @@ body{
 }
 
 #phone2 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 2400px;
     left: 900px;
@@ -136,8 +130,8 @@ body{
 }
 
 #square3 {
-  width: 425px;
-  height: 600px;
+  width: 300px;
+  height: 400px;
   position: absolute;
   top: 3100px;
   left: 100px;
@@ -180,8 +174,8 @@ body{
 }
 
 #square4 {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: 4100px;
   left: 100px;
@@ -195,8 +189,8 @@ body{
 }
 
 #phone4 {
-    width: 625px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     position: absolute;
     top: 4400px;
     left: 700px;
@@ -218,8 +212,8 @@ body{
 }
 
 #square5 {
-  width: 700px;
-  height: 450px;
+  width: 500px;
+  height: 300px;
   position: absolute;
   top: 5100px;
   left: 100px;
@@ -233,8 +227,8 @@ body{
 }
 
 #phone5 {
-    width: 300px;
-    height: 420px;
+    width: 200px;
+    height: 300px;
     position: absolute;
     top: 5400px;
     left: 900px;
@@ -361,6 +355,14 @@ body{
     animation: float 4s ease-in-out infinite;
 }
 
+#crate1 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 9550px;
+  left: 50px;
+}
+
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -380,56 +382,74 @@ body{
 }
 
 #cloud1{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 300px;
   left: 400px;
 }
 
 #cloud2{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 150px;
   left: 500px;
 }
 
 #cloud3{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 400px;
   left: 300px;
 }
 
 #cloud4{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 700px;
   left: 600px;
 }
 
 #cloud5{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 1100px;
   left: 500px;
 }
 
 #cloud6{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 1400px;
   left: 300px;
 }
 
+#cloud7{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 1800px;
+  left: 300px;
+}
+
 #bird1{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 2200px;
   left: 300px;
 }
 
 #bird2{
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 600px;
-  left: 300px;
-}
-
-#cloud7{
-  position: absolute;
-  top: 1800px;
   left: 300px;
 }
 
