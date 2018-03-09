@@ -3,7 +3,6 @@ body{
 }
 
 #counter {
-  border: 1px solid red;
   position: absolute;
   top: 600px;
   left: 10%;
@@ -17,7 +16,6 @@ body{
 }
 
 #canvas {
-  border: 1px solid blue;
   position: relative;
   margin: 0 auto;
   width: 1500px;
@@ -26,7 +24,6 @@ body{
 }
 
 #home {
-  border: 1px solid green;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -34,7 +31,6 @@ body{
 }
 
 #board1 {
-  border: 1px solid yellow;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -60,7 +56,7 @@ body{
   width: 300px;
   height: 200px;
   position: absolute;
-  top: 1600px;
+  top: 1200px;
   left: 800px;
   background-color: #9acdf4;
   border: 3px solid #fff;
@@ -77,6 +73,7 @@ body{
   position: absolute;
   top: 730px;
   left: 0px;
+  opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
 
@@ -84,13 +81,13 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 1260px;
+  top: 860px;
   left: 700px;
+  opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
 }
 
 #board2 {
-  border: 1px solid orange;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -116,7 +113,7 @@ body{
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 2400px;
+    top: 2200px;
     left: 900px;
     background-color: #ace8ef;
     border: 3px solid #fff;
@@ -127,8 +124,27 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
+#parachute3 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 1730px;
+  left: 50px;
+  opacity: 0.8;
+  animation: floats 6s ease-in-out infinite;
+}
+
+#parachute4 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 1860px;
+  left: 775px;
+  opacity: 0.8;
+  animation: floats 5s ease-in-out infinite;
+}
+
 #board3 {
-  border: 1px solid green;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -154,8 +170,8 @@ body{
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 3500px;
-    left: 900px;
+    top: 3200px;
+    left: 800px;
     background-color: #acefcf;
     border: 3px solid #fff;
     color: #fff;
@@ -165,8 +181,27 @@ body{
     animation: float 6s ease-in-out infinite;
 }
 
+#parachute5 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 2730px;
+  left: 0px;
+  opacity: 0.8;
+  animation: floats 4s ease-in-out infinite;
+}
+
+#parachute6 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 2860px;
+  left: 675px;
+  opacity: 0.8;
+  animation: floats 6s ease-in-out infinite;
+}
+
 #board4 {
-  border: 1px solid yellow;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -192,8 +227,8 @@ body{
     width: 300px;
     height: 200px;
     position: absolute;
-    top: 4400px;
-    left: 700px;
+    top: 4300px;
+    left: 900px;
     background-color: #a5e5ac;
     border: 3px solid #fff;
     color: #fff;
@@ -203,8 +238,27 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
+#parachute7 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 3730px;
+  left: 50px;
+  opacity: 0.8;
+  animation: floats 6s ease-in-out infinite;
+}
+
+#parachute8 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 3960px;
+  left: 800px;
+  opacity: 0.8;
+  animation: floats 5s ease-in-out infinite;
+}
+
 #board5 {
-  border: 1px solid orange;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -230,7 +284,7 @@ body{
     width: 200px;
     height: 300px;
     position: absolute;
-    top: 5400px;
+    top: 5150px;
     left: 900px;
     background-color: #b3e5a5;
     border: 3px solid #fff;
@@ -241,8 +295,27 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
+#parachute9 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 4700px;
+  left: 100px;
+  opacity: 0.8;
+  animation: floats 4s ease-in-out infinite;
+}
+
+#parachute10 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 4800px;
+  left: 750px;
+  opacity: 0.8;
+  animation: floats 5s ease-in-out infinite;
+}
+
 #board6 {
-  border: 1px solid green;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -265,10 +338,10 @@ body{
 }
 
 #phone6 {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     position: absolute;
-    top: 6500px;
+    top: 6200px;
     left: 900px;
     background-color: #d0e8a4;
     border: 3px solid #fff;
@@ -279,8 +352,27 @@ body{
     animation: float 7s ease-in-out infinite;
 }
 
+#parachute11 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 5700px;
+  left: 100px;
+  opacity: 0.8;
+  animation: floats 5s ease-in-out infinite;
+}
+
+#parachute12 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 5850px;
+  left: 800px;
+  opacity: 0.8;
+  animation: floats 7s ease-in-out infinite;
+}
+
 #board7 {
-  border: 1px solid yellow;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -306,7 +398,7 @@ body{
     width: 350px;
     height: 250px;
     position: absolute;
-    top: 7400px;
+    top: 7200px;
     left: 900px;
     background-color: #e3e5b0;
     border: 3px solid #fff;
@@ -317,8 +409,27 @@ body{
     animation: float 4s ease-in-out infinite;
 }
 
+#parachute13 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 6700px;
+  left: 75px;
+  opacity: 0.8;
+  animation: floats 6s ease-in-out infinite;
+}
+
+#parachute14 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 6850px;
+  left: 825px;
+  opacity: 0.8;
+  animation: floats 4s ease-in-out infinite;
+}
+
 #board8 {
-  border: 1px solid orange;
   margin: 0 auto;
   width: 1500px;
   height: 1000px;
@@ -344,7 +455,7 @@ body{
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 8400px;
+    top: 8200px;
     left: 900px;
     background-color: #e5d2b0;
     border: 3px solid #fff;
@@ -353,6 +464,26 @@ body{
     align-items: center;
     justify-content: center;
     animation: float 4s ease-in-out infinite;
+}
+
+#parachute15 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 7700px;
+  left: 50px;
+  opacity: 0.8;
+  animation: floats 5s ease-in-out infinite;
+}
+
+#parachute16 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 7850px;
+  left: 800px;
+  opacity: 0.8;
+  animation: floats 4s ease-in-out infinite;
 }
 
 #crate1 {
