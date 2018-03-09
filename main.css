@@ -71,10 +71,22 @@ body{
   animation: float 6s ease-in-out infinite;
 }
 
-#info1 {
+#parachute1 {
+  width: 500px;
+  height: 500px;
   position: absolute;
-  top: 1050px;
-  left: 800px;
+  top: 730px;
+  left: 0px;
+  animation: floats 5s ease-in-out infinite;
+}
+
+#parachute2 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 1260px;
+  left: 700px;
+  animation: floats 6s ease-in-out infinite;
 }
 
 #board2 {
@@ -115,12 +127,6 @@ body{
     animation: float 5s ease-in-out infinite;
 }
 
-#info2 {
-  position: absolute;
-  top: 2000px;
-  left: 800px;
-}
-
 #board3 {
   border: 1px solid green;
   margin: 0 auto;
@@ -157,12 +163,6 @@ body{
     align-items: center;
     justify-content: center;
     animation: float 6s ease-in-out infinite;
-}
-
-#info3 {
-  position: absolute;
-  top: 3000px;
-  left: 800px;
 }
 
 #board4 {
@@ -379,6 +379,15 @@ body{
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	}
+}
+
+@keyframes floats {
+    from {-webkit-transform:translate(0, 0px);
+  }
+  65% {-webkit-transform:translate(0, 30px);
+  }
+    to {-webkit-transform: translate(0, -0px);
+  }
 }
 
 #cloud1{
