@@ -23,25 +23,11 @@ body{
   padding: 0;
 }
 
-#home {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
-}
-
-#board1 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
-}
-
 #square1 {
   width: 400px;
   height: 350px;
   position: absolute;
-  top: 1100px;
+  top: 1200px;
   left: 50px;
   background-color: #87caff;
   border: 3px solid #fff;
@@ -56,7 +42,7 @@ body{
   width: 300px;
   height: 200px;
   position: absolute;
-  top: 1200px;
+  top: 1300px;
   left: 800px;
   background-color: #9acdf4;
   border: 3px solid #fff;
@@ -71,7 +57,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 730px;
+  top: 830px;
   left: 0px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -81,24 +67,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 860px;
+  top: 960px;
   left: 700px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
-}
-
-#board2 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square2 {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 2100px;
+  top: 2250px;
   left: 100px;
   background-color: #8ac5cc;
   border: 3px solid #fff;
@@ -113,7 +92,7 @@ body{
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 2200px;
+    top: 2350px;
     left: 900px;
     background-color: #ace8ef;
     border: 3px solid #fff;
@@ -128,7 +107,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 1730px;
+  top: 1880px;
   left: 50px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -138,24 +117,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 1860px;
+  top: 2010px;
   left: 775px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
-}
-
-#board3 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square3 {
   width: 300px;
   height: 400px;
   position: absolute;
-  top: 3100px;
+  top: 3200px;
   left: 100px;
   background-color: #6ed3a3;
   border: 3px solid #fff;
@@ -170,7 +142,7 @@ body{
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 3200px;
+    top: 3300px;
     left: 800px;
     background-color: #acefcf;
     border: 3px solid #fff;
@@ -185,7 +157,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 2730px;
+  top: 2830px;
   left: 0px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
@@ -195,24 +167,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 2860px;
+  top: 2960px;
   left: 675px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
-}
-
-#board4 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square4 {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 4100px;
+  top: 4300px;
   left: 100px;
   background-color: #61ad6a;
   border: 3px solid #fff;
@@ -227,7 +192,7 @@ body{
     width: 300px;
     height: 200px;
     position: absolute;
-    top: 4300px;
+    top: 4400px;
     left: 900px;
     background-color: #a5e5ac;
     border: 3px solid #fff;
@@ -242,7 +207,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 3730px;
+  top: 3930px;
   left: 50px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -252,24 +217,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 3960px;
+  top: 4060px;
   left: 800px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
-}
-
-#board5 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square5 {
   width: 500px;
   height: 300px;
   position: absolute;
-  top: 5100px;
+  top: 5400px;
   left: 100px;
   background-color: #85d170;
   border: 3px solid #fff;
@@ -284,7 +242,7 @@ body{
     width: 200px;
     height: 300px;
     position: absolute;
-    top: 5150px;
+    top: 5350px;
     left: 900px;
     background-color: #b3e5a5;
     border: 3px solid #fff;
@@ -299,7 +257,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 4700px;
+  top: 5000px;
   left: 100px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
@@ -309,24 +267,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 4800px;
+  top: 5000px;
   left: 750px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
-}
-
-#board6 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square6 {
   width: 500px;
   height: 400px;
   position: absolute;
-  top: 6100px;
+  top: 6350px;
   left: 100px;
   background-color: #a4c665;
   border: 3px solid #fff;
@@ -341,7 +292,7 @@ body{
     width: 300px;
     height: 250px;
     position: absolute;
-    top: 6200px;
+    top: 6450px;
     left: 900px;
     background-color: #d0e8a4;
     border: 3px solid #fff;
@@ -356,7 +307,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 5700px;
+  top: 5950px;
   left: 100px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -366,24 +317,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 5850px;
+  top: 6100px;
   left: 800px;
   opacity: 0.8;
   animation: floats 7s ease-in-out infinite;
-}
-
-#board7 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square7 {
   width: 450px;
   height: 350px;
   position: absolute;
-  top: 7100px;
+  top: 7500px;
   left: 100px;
   background-color: #d2d66b;
   border: 3px solid #fff;
@@ -398,7 +342,7 @@ body{
     width: 350px;
     height: 250px;
     position: absolute;
-    top: 7200px;
+    top: 7600px;
     left: 900px;
     background-color: #e3e5b0;
     border: 3px solid #fff;
@@ -413,7 +357,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 6700px;
+  top: 7100px;
   left: 75px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -423,24 +367,17 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 6850px;
+  top: 7250px;
   left: 825px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
-}
-
-#board8 {
-  margin: 0 auto;
-  width: 1500px;
-  height: 1000px;
-  padding: 0;
 }
 
 #square8 {
   width: 400px;;
   height: 300px;;
   position: absolute;
-  top: 8100px;
+  top: 8600px;
   left: 100px;
   background-color: #e8ab43;
   border: 3px solid #fff;
@@ -455,7 +392,7 @@ body{
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 8200px;
+    top: 8600px;
     left: 900px;
     background-color: #e5d2b0;
     border: 3px solid #fff;
@@ -470,7 +407,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 7700px;
+  top: 8200px;
   left: 50px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -480,7 +417,7 @@ body{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 7850px;
+  top: 8250px;
   left: 800px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
@@ -593,6 +530,142 @@ body{
   left: 300px;
 }
 
+#plane1{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 1450px;
+  left: 300px;
+}
+
+#plane2{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 2550px;
+  left: 300px;
+}
+
+#plane3{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 3550px;
+  left: 300px;
+}
+
+#plane4{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 4650px;
+  left: 300px;
+}
+
+#plane5{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 5600px;
+  left: 300px;
+}
+
+#plane6{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 6700px;
+  left: 300px;
+}
+
+#plane7{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 7800px;
+  left: 300px;
+}
+
+#plane8{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 8850px;
+  left: 300px;
+}
+
+#cloud8{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 3000px;
+  left: 400px;
+}
+
+#cloud9{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 3450px;
+  left: 500px;
+}
+
+#cloud10{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 4000px;
+  left: 300px;
+}
+
+#cloud11{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 4600px;
+  left: 600px;
+}
+
+#cloud12{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 4900px;
+  left: 500px;
+}
+
+#cloud13{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 5500px;
+  left: 300px;
+}
+
+#cloud14{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 6000px;
+  left: 300px;
+}
+
+#bird3{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 6100px;
+  left: 300px;
+}
+
+#bird4{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 4800px;
+  left: 300px;
+}
+
 .x1 {
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
@@ -656,28 +729,152 @@ body{
   opacity: 0.8;
 }
 
+.x10 {
+	-webkit-animation: moveplanes 15s linear infinite;
+	-moz-animation: moveplanes 15s linear infinite;
+	-o-animation: moveplanes 15s linear infinite;
+}
+
+.x11 {
+	-webkit-animation: moveplanes 17s linear infinite;
+	-moz-animation: moveplanes 17s linear infinite;
+	-o-animation: moveplanes 17s linear infinite;
+}
+
+.x12 {
+	-webkit-animation: moveplanes 16s linear infinite;
+	-moz-animation: moveplanes 16s linear infinite;
+	-o-animation: moveplanes 16s linear infinite;
+}
+
+.x13 {
+	-webkit-animation: moveplanes 15s linear infinite;
+	-moz-animation: moveplanes 15s linear infinite;
+	-o-animation: moveplanes 15s linear infinite;
+}
+
+.x14 {
+	-webkit-animation: moveplanes 17s linear infinite;
+	-moz-animation: moveplanes 17s linear infinite;
+	-o-animation: moveplanes 17s linear infinite;
+}
+
+.x15 {
+	-webkit-animation: moveplanes 16s linear infinite;
+	-moz-animation: moveplanes 16s linear infinite;
+	-o-animation: moveplanes 16s linear infinite;
+}
+
+.x16 {
+	-webkit-animation: moveplanes 14s linear infinite;
+	-moz-animation: moveplanes 14s linear infinite;
+	-o-animation: moveplanes 14s linear infinite;
+}
+
+.x17 {
+	-webkit-animation: moveplanes 15s linear infinite;
+	-moz-animation: moveplanes 15s linear infinite;
+	-o-animation: moveplanes 15s linear infinite;
+}
+
+.x18 {
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+  opacity: 1;
+}
+
+.x19 {
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+  opacity: 0.7;
+}
+
+.x20 {
+	-webkit-animation: moveclouds 12s linear infinite;
+	-moz-animation: moveclouds 12s linear infinite;
+	-o-animation: moveclouds 12s linear infinite;
+  opacity: 0.8;
+}
+
+.x21 {
+	-webkit-animation: moveclouds 17s linear infinite;
+	-moz-animation: moveclouds 17s linear infinite;
+	-o-animation: moveclouds 17s linear infinite;
+  opacity: 0.7;
+}
+
+.x22 {
+	-webkit-animation: moveclouds 13s linear infinite;
+	-moz-animation: moveclouds 13s linear infinite;
+	-o-animation: moveclouds 13s linear infinite;
+  opacity: 0.8;
+}
+
+.x23 {
+	-webkit-animation: moveclouds 10s linear infinite;
+	-moz-animation: moveclouds 10s linear infinite;
+	-o-animation: moveclouds 10s linear infinite;
+  opacity: 1;
+}
+
+.x24 {
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+  opacity: 0.8;
+}
+
+.x25 {
+	-webkit-animation: moveclouds 17s linear infinite;
+	-moz-animation: moveclouds 17s linear infinite;
+	-o-animation: moveclouds 17s linear infinite;
+  opacity: 0.7;
+}
+
+.x26 {
+	-webkit-animation: movebirds 13s linear infinite;
+	-moz-animation: movebirds 13s linear infinite;
+	-o-animation: movebirds 13s linear infinite;
+  opacity: 0.8;
+}
+
 @-webkit-keyframes moveclouds {
-	0% {margin-left: 1000px;}
-	100% {margin-left: -1000px;}
+	0% {margin-left: 1100px;}
+	100% {margin-left: -1100px;}
 }
 @-moz-keyframes moveclouds {
-	0% {margin-left: 1000px;}
-	100% {margin-left: -1000px;}
+	0% {margin-left: 1100px;}
+	100% {margin-left: -1100px;}
 }
 @-o-keyframes moveclouds {
-	0% {margin-left: 1000px;}
-	100% {margin-left: -1000px;}
+	0% {margin-left: 1100px;}
+	100% {margin-left: -1100px;}
 }
 
 @-webkit-keyframes movebirds {
-	0% {margin-left: -1000px;}
-	100% {margin-left: 1000px;}
+	0% {margin-left: -1100px;}
+	100% {margin-left: 1100px;}
 }
 @-moz-keyframes movebirds {
-	0% {margin-left: -1000px;}
-	100% {margin-left: 1000px;}
+	0% {margin-left: -1100px;}
+	100% {margin-left: 1100px;}
 }
 @-o-keyframes movebirds {
 	0% {margin-left: -1000px;}
-	100% {margin-left: 1000px;}
+	100% {margin-left: 1100px;}
+}
+
+@-webkit-keyframes moveplanes {
+	0% {margin-left: 1300px;}
+	100% {margin-left: -1400px;}
+}
+@-moz-keyframes moveplanes {
+	0% {margin-left: 1300px;}
+	100% {margin-left: -1400px;}
+}
+@-o-keyframes moveplanes {
+	0% {margin-left: 1300px;}
+	100% {margin-left: -1400px;}
 }
