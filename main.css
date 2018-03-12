@@ -2,6 +2,12 @@ body{
   background: linear-gradient(#9ee8ff 1000px, #bdebf9 5000px, #cef3ff 8000px);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
 #counter {
   position: absolute;
   top: 600px;
@@ -53,6 +59,24 @@ body{
   animation: float 6s ease-in-out infinite;
 }
 
+#name1 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 1325px;
+   left: 1300px;
+   text-align: center;
+   background-color: #ed9090;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
+
 #parachute1 {
   width: 500px;
   height: 500px;
@@ -93,7 +117,7 @@ body{
     height: 250px;
     position: absolute;
     top: 2350px;
-    left: 900px;
+    left: 800px;
     background-color: #ace8ef;
     border: 3px solid #fff;
     color: #fff;
@@ -102,6 +126,24 @@ body{
     justify-content: center;
     animation: float 5s ease-in-out infinite;
 }
+
+#name2 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 2400px;
+   left: 1300px;
+   text-align: center;
+   background-color: #65bded;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute3 {
   width: 500px;
@@ -118,7 +160,7 @@ body{
   height: 500px;
   position: absolute;
   top: 2010px;
-  left: 775px;
+  left: 675px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
@@ -152,6 +194,24 @@ body{
     justify-content: center;
     animation: float 6s ease-in-out infinite;
 }
+
+#name3 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 3350px;
+   left: 1300px;
+   text-align: center;
+   background-color: #52b750;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute5 {
   width: 500px;
@@ -193,7 +253,7 @@ body{
     height: 200px;
     position: absolute;
     top: 4400px;
-    left: 900px;
+    left: 800px;
     background-color: #a5e5ac;
     border: 3px solid #fff;
     color: #fff;
@@ -202,6 +262,24 @@ body{
     justify-content: center;
     animation: float 5s ease-in-out infinite;
 }
+
+#name4 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 4450px;
+   left: 1300px;
+   text-align: center;
+   background-color: #e2e048;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute7 {
   width: 500px;
@@ -218,7 +296,7 @@ body{
   height: 500px;
   position: absolute;
   top: 4060px;
-  left: 800px;
+  left: 700px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
@@ -243,7 +321,7 @@ body{
     height: 300px;
     position: absolute;
     top: 5350px;
-    left: 900px;
+    left: 850px;
     background-color: #b3e5a5;
     border: 3px solid #fff;
     color: #fff;
@@ -252,6 +330,24 @@ body{
     justify-content: center;
     animation: float 5s ease-in-out infinite;
 }
+
+#name5 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 5450px;
+   left: 1300px;
+   text-align: center;
+   background-color: #e29e3f;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute9 {
   width: 500px;
@@ -268,7 +364,7 @@ body{
   height: 500px;
   position: absolute;
   top: 5000px;
-  left: 750px;
+  left: 700px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
@@ -293,7 +389,7 @@ body{
     height: 250px;
     position: absolute;
     top: 6450px;
-    left: 900px;
+    left: 800px;
     background-color: #d0e8a4;
     border: 3px solid #fff;
     color: #fff;
@@ -302,6 +398,24 @@ body{
     justify-content: center;
     animation: float 7s ease-in-out infinite;
 }
+
+#name6 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 6500px;
+   left: 1300px;
+   text-align: center;
+   background-color: #c66ae2;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute11 {
   width: 500px;
@@ -318,7 +432,7 @@ body{
   height: 500px;
   position: absolute;
   top: 6100px;
-  left: 800px;
+  left: 700px;
   opacity: 0.8;
   animation: floats 7s ease-in-out infinite;
 }
@@ -343,7 +457,7 @@ body{
     height: 250px;
     position: absolute;
     top: 7600px;
-    left: 900px;
+    left: 750px;
     background-color: #e3e5b0;
     border: 3px solid #fff;
     color: #fff;
@@ -352,6 +466,24 @@ body{
     justify-content: center;
     animation: float 4s ease-in-out infinite;
 }
+
+#name7 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 7600px;
+   left: 1300px;
+   text-align: center;
+   background-color: #e28cc9;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute13 {
   width: 500px;
@@ -368,7 +500,7 @@ body{
   height: 500px;
   position: absolute;
   top: 7250px;
-  left: 825px;
+  left: 700px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
 }
@@ -393,7 +525,7 @@ body{
     height: 300px;
     position: absolute;
     top: 8600px;
-    left: 900px;
+    left: 750px;
     background-color: #e5d2b0;
     border: 3px solid #fff;
     color: #fff;
@@ -402,6 +534,24 @@ body{
     justify-content: center;
     animation: float 4s ease-in-out infinite;
 }
+
+#name8 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 8600px;
+   left: 1300px;
+   text-align: center;
+   background-color: #a05858;
+   border: 2px Solid #fff;
+   color: #fff;
+   border-radius: 50%;
+   padding: 20px;
+   text-align: center;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+ }
 
 #parachute15 {
   width: 500px;
@@ -418,7 +568,7 @@ body{
   height: 500px;
   position: absolute;
   top: 8250px;
-  left: 800px;
+  left: 650px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
 }
@@ -478,7 +628,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 400px;
+  top: 1000px;
   left: 300px;
 }
 
@@ -494,7 +644,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 1100px;
+  top: 2100px;
   left: 500px;
 }
 
@@ -502,7 +652,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 1400px;
+  top: 2500px;
   left: 300px;
 }
 
@@ -510,7 +660,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 1800px;
+  top: 3800px;
   left: 300px;
 }
 
@@ -598,7 +748,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 3000px;
+  top: 4000px;
   left: 400px;
 }
 
@@ -606,7 +756,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 3450px;
+  top: 5450px;
   left: 500px;
 }
 
@@ -614,7 +764,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 4000px;
+  top: 6000px;
   left: 300px;
 }
 
@@ -622,7 +772,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 4600px;
+  top: 6600px;
   left: 600px;
 }
 
@@ -630,7 +780,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 4900px;
+  top: 7500px;
   left: 500px;
 }
 
@@ -638,7 +788,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 5500px;
+  top: 8300px;
   left: 300px;
 }
 
@@ -646,7 +796,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 6000px;
+  top: 9000px;
   left: 300px;
 }
 
@@ -662,7 +812,7 @@ body{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 4800px;
+  top: 8800px;
   left: 300px;
 }
 
