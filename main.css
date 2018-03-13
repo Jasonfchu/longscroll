@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body{
   background: linear-gradient(#4ed3e8 1000px, #7cedff 5000px, #9ee8ff 8000px);
 }
 
 p{
-  font-family: 'Arial', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
 }
 
 #counter {
