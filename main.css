@@ -15,9 +15,9 @@ p{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid #fff;
+
   text-align: center;
-  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
+
 }
 
 #canvas {
