@@ -64,7 +64,7 @@ p{
    height: 100px;
    position: absolute;
    top: 1325px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #ed9090;
    border: 2px Solid #fff;
@@ -132,7 +132,7 @@ p{
    height: 100px;
    position: absolute;
    top: 2400px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #65bded;
    border: 2px Solid #fff;
@@ -200,7 +200,7 @@ p{
    height: 100px;
    position: absolute;
    top: 3350px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #52b750;
    border: 2px Solid #fff;
@@ -268,7 +268,7 @@ p{
    height: 100px;
    position: absolute;
    top: 4450px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #c9ce39;
    border: 2px Solid #fff;
@@ -336,7 +336,7 @@ p{
    height: 100px;
    position: absolute;
    top: 5450px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #e29e3f;
    border: 2px Solid #fff;
@@ -404,7 +404,7 @@ p{
    height: 100px;
    position: absolute;
    top: 6500px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #c66ae2;
    border: 2px Solid #fff;
@@ -472,7 +472,7 @@ p{
    height: 100px;
    position: absolute;
    top: 7600px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #e28cc9;
    border: 2px Solid #fff;
@@ -540,7 +540,7 @@ p{
    height: 100px;
    position: absolute;
    top: 8600px;
-   left: 1300px;
+   left: 1200px;
    text-align: center;
    background-color: #a05858;
    border: 2px Solid #fff;
@@ -652,7 +652,7 @@ p{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 2500px;
+  top: 9500px;
   left: 300px;
 }
 
@@ -660,7 +660,7 @@ p{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 3800px;
+  top: 3500px;
   left: 300px;
 }
 
@@ -820,7 +820,7 @@ p{
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
 	-o-animation: moveclouds 20s linear infinite;
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .x2 {
@@ -855,7 +855,7 @@ p{
 	-webkit-animation: moveclouds 10s linear infinite;
 	-moz-animation: moveclouds 10s linear infinite;
 	-o-animation: moveclouds 10s linear infinite;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .x7 {
@@ -931,7 +931,7 @@ p{
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
 	-o-animation: moveclouds 20s linear infinite;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .x19 {
@@ -966,7 +966,7 @@ p{
 	-webkit-animation: moveclouds 10s linear infinite;
 	-moz-animation: moveclouds 10s linear infinite;
 	-o-animation: moveclouds 10s linear infinite;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .x24 {
