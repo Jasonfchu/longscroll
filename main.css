@@ -10,8 +10,7 @@ p{
 
 #counter {
   position: absolute;
-  top: 600px;
-  left: 10%;
+  top: 300px;
   margin: 0;
   width: 200px;
   height: 200px;
@@ -24,7 +23,7 @@ p{
 #canvas {
   position: relative;
   margin: 0 auto;
-  width: 1500px;
+  width: 1200px;
   height: 10000px;
   padding: 0;
 }
@@ -34,7 +33,7 @@ p{
   height: 350px;
   position: absolute;
   top: 1200px;
-  left: 50px;
+  left: 250px;
   background-color: #87caff;
   border: 3px solid #fff;
   color: #fff;
@@ -82,7 +81,7 @@ p{
   height: 500px;
   position: absolute;
   top: 830px;
-  left: 0px;
+  left: 200px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
@@ -102,7 +101,7 @@ p{
   height: 400px;
   position: absolute;
   top: 2250px;
-  left: 100px;
+  left: 250px;
   background-color: #8ac5cc;
   border: 3px solid #fff;
   color: #fff;
@@ -150,7 +149,7 @@ p{
   height: 500px;
   position: absolute;
   top: 1880px;
-  left: 50px;
+  left: 200px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
 }
@@ -170,7 +169,7 @@ p{
   height: 400px;
   position: absolute;
   top: 3200px;
-  left: 100px;
+  left: 300px;
   background-color: #6ed3a3;
   border: 3px solid #fff;
   color: #fff;
@@ -218,7 +217,7 @@ p{
   height: 500px;
   position: absolute;
   top: 2830px;
-  left: 0px;
+  left: 200px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
 }
@@ -238,7 +237,7 @@ p{
   height: 400px;
   position: absolute;
   top: 4300px;
-  left: 100px;
+  left: 250px;
   background-color: #61ad6a;
   border: 3px solid #fff;
   color: #fff;
@@ -286,7 +285,7 @@ p{
   height: 500px;
   position: absolute;
   top: 3930px;
-  left: 50px;
+  left: 200px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
 }
@@ -306,7 +305,7 @@ p{
   height: 300px;
   position: absolute;
   top: 5400px;
-  left: 100px;
+  left: 250px;
   background-color: #85d170;
   border: 3px solid #fff;
   color: #fff;
@@ -354,7 +353,7 @@ p{
   height: 500px;
   position: absolute;
   top: 5000px;
-  left: 100px;
+  left: 250px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
 }
@@ -374,7 +373,7 @@ p{
   height: 400px;
   position: absolute;
   top: 6350px;
-  left: 100px;
+  left: 250px;
   background-color: #a4c665;
   border: 3px solid #fff;
   color: #fff;
@@ -389,7 +388,7 @@ p{
     height: 250px;
     position: absolute;
     top: 6450px;
-    left: 800px;
+    left: 850px;
     background-color: #d0e8a4;
     border: 3px solid #fff;
     color: #fff;
@@ -422,7 +421,7 @@ p{
   height: 500px;
   position: absolute;
   top: 5950px;
-  left: 100px;
+  left: 250px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
@@ -432,7 +431,7 @@ p{
   height: 500px;
   position: absolute;
   top: 6100px;
-  left: 700px;
+  left: 750px;
   opacity: 0.8;
   animation: floats 7s ease-in-out infinite;
 }
@@ -442,7 +441,7 @@ p{
   height: 350px;
   position: absolute;
   top: 7500px;
-  left: 100px;
+  left: 250px;
   background-color: #d2d66b;
   border: 3px solid #fff;
   color: #fff;
@@ -457,7 +456,7 @@ p{
     height: 250px;
     position: absolute;
     top: 7600px;
-    left: 750px;
+    left: 800px;
     background-color: #e3e5b0;
     border: 3px solid #fff;
     color: #fff;
@@ -490,7 +489,7 @@ p{
   height: 500px;
   position: absolute;
   top: 7100px;
-  left: 75px;
+  left: 225px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
 }
@@ -500,7 +499,7 @@ p{
   height: 500px;
   position: absolute;
   top: 7250px;
-  left: 700px;
+  left: 750px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
 }
@@ -510,7 +509,7 @@ p{
   height: 300px;;
   position: absolute;
   top: 8600px;
-  left: 100px;
+  left: 250px;
   background-color: #e8ab43;
   border: 3px solid #fff;
   color: #fff;
@@ -525,7 +524,7 @@ p{
     height: 300px;
     position: absolute;
     top: 8600px;
-    left: 750px;
+    left: 800px;
     background-color: #e5d2b0;
     border: 3px solid #fff;
     color: #fff;
@@ -558,7 +557,7 @@ p{
   height: 500px;
   position: absolute;
   top: 8200px;
-  left: 50px;
+  left: 200px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
 }
@@ -568,7 +567,7 @@ p{
   height: 500px;
   position: absolute;
   top: 8250px;
-  left: 650px;
+  left: 700px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
 }
@@ -577,8 +576,8 @@ p{
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 9600px;
-  left: 50px;
+  top: 9350px;
+  left: -90px;
 }
 
 @keyframes float {
@@ -616,14 +615,6 @@ p{
   left: 400px;
 }
 
-#cloud2{
-  width: 600px;
-  height: 400px;
-  position: absolute;
-  top: 150px;
-  left: 500px;
-}
-
 #cloud3{
   width: 600px;
   height: 400px;
@@ -646,14 +637,6 @@ p{
   position: absolute;
   top: 2100px;
   left: 500px;
-}
-
-#cloud6{
-  width: 600px;
-  height: 400px;
-  position: absolute;
-  top: 9500px;
-  left: 300px;
 }
 
 #cloud7{
@@ -764,40 +747,16 @@ p{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 6000px;
+  top: 7200px;
   left: 300px;
-}
-
-#cloud11{
-  width: 600px;
-  height: 400px;
-  position: absolute;
-  top: 6600px;
-  left: 600px;
 }
 
 #cloud12{
   width: 600px;
   height: 400px;
   position: absolute;
-  top: 7500px;
+  top: 8500px;
   left: 500px;
-}
-
-#cloud13{
-  width: 600px;
-  height: 400px;
-  position: absolute;
-  top: 8300px;
-  left: 300px;
-}
-
-#cloud14{
-  width: 600px;
-  height: 400px;
-  position: absolute;
-  top: 9000px;
-  left: 300px;
 }
 
 #bird3{
@@ -945,7 +904,7 @@ p{
 	-webkit-animation: moveclouds 12s linear infinite;
 	-moz-animation: moveclouds 12s linear infinite;
 	-o-animation: moveclouds 12s linear infinite;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .x21 {

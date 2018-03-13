@@ -14,23 +14,23 @@ window.onscroll = function (){
     //test if it works
     console.log(fromTop);
 
-    counter.style.top = 600 + fromTop + "px";
+    counter.style.top = 300 + fromTop + "px";
 
-    if (fromTop > 900){
+    if (fromTop > 700){
       counter.style.backgroundImage = "url(images/year1.png)";
-    } if (fromTop > 1800){
+    } if (fromTop > 1600){
       counter.style.backgroundImage = "url(images/year2.png)";
-    } if (fromTop > 2800){
+    } if (fromTop > 2600){
       counter.style.backgroundImage = "url(images/year3.png)";
-    } if (fromTop > 3800){
+    } if (fromTop > 3600){
       counter.style.backgroundImage = "url(images/year4.png)";
-    } if (fromTop > 4800){
+    } if (fromTop > 4600){
       counter.style.backgroundImage = "url(images/year5.png)";
-    } if (fromTop > 5800){
+    } if (fromTop > 5600){
       counter.style.backgroundImage = "url(images/year6.png)";
-    } if (fromTop > 7000){
+    } if (fromTop > 6800){
       counter.style.backgroundImage = "url(images/year7.png)";
-    } if (fromTop > 8000){
+    } if (fromTop > 7800){
       counter.style.backgroundImage = "url(images/year8.png)";
     }
 }
