@@ -32,5 +32,7 @@ window.onscroll = function (){
       counter.style.backgroundImage = "url(images/year7.png)";
     } if (fromTop > 8000){
       counter.style.backgroundImage = "url(images/year8.png)";
+    } if (fromTop > 8800){
+      counter.style.backgroundImage = "url(images/year9.png)";
     }
 }

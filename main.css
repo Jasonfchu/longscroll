@@ -38,7 +38,7 @@ p{
   width: 1200px;
   height: 700px;
   position: absolute;
-  top: 0px;
+  top: 100px;
   left: 100px;
   opacity: 0.9;
   animation: floats 3s ease-in-out infinite;
@@ -48,23 +48,15 @@ p{
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 9550px;
-  left: -90px;
+  top: 500px;
+  left: -50px;
 }
 
 #crate2 {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 450px;
-  left: -50px;
-}
-
-#crate3 {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  top: 650px;
+  top: 700px;
   left: -90px;
 }
 
@@ -807,6 +799,14 @@ p{
   left: 300px;
 }
 
+#plane9{
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  top: 9450px;
+  left: 300px;
+}
+
 .x1 {
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
@@ -981,6 +981,12 @@ p{
   opacity: 0.8;
 }
 
+.x27 {
+	-webkit-animation: moveplaness 10s linear infinite;
+	-moz-animation: moveplaness 10s linear infinite;
+	-o-animation: moveplaness 10s linear infinite;
+}
+
 @-webkit-keyframes moveclouds {
 	0% {margin-left: 1100px;}
 	100% {margin-left: -1100px;}
@@ -1018,4 +1024,17 @@ p{
 @-o-keyframes moveplanes {
 	0% {margin-left: 1300px;}
 	100% {margin-left: -1400px;}
+}
+
+@-webkit-keyframes moveplaness {
+	0% {margin-left: 1300px;}
+	100% {margin-left: -1600px;}
+}
+@-moz-keyframes moveplaness {
+	0% {margin-left: 1300px;}
+	100% {margin-left: -1600px;}
+}
+@-o-keyframes moveplaness {
+	0% {margin-left: 1300px;}
+	100% {margin-left: -1600px;}
 }
