@@ -15,9 +15,7 @@ p{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-
   text-align: center;
-
 }
 
 #canvas {
@@ -32,15 +30,49 @@ p{
   width: 1000px;
   height: 300px;
   position: absolute;
-  top: 0px;
+  top: -70px;
   left: 90px;
+}
+
+#cargo-plane {
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  opacity: 0.9;
+  animation: floats 3s ease-in-out infinite;
+}
+
+#crate1 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 9550px;
+  left: -90px;
+}
+
+#crate2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 450px;
+  left: -50px;
+}
+
+#crate3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 650px;
+  left: -90px;
 }
 
 #square1 {
   width: 400px;
   height: 350px;
   position: absolute;
-  top: 1200px;
+  top: 1400px;
   left: 250px;
   background-color: #87caff;
   border: 3px solid #fff;
@@ -55,7 +87,7 @@ p{
   width: 300px;
   height: 200px;
   position: absolute;
-  top: 1300px;
+  top: 1500px;
   left: 800px;
   background-color: #9acdf4;
   border: 3px solid #fff;
@@ -70,7 +102,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 1325px;
+   top: 1525px;
    left: 1200px;
    text-align: center;
    background-color: #ed9090;
@@ -88,7 +120,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 830px;
+  top: 1030px;
   left: 200px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -98,7 +130,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 960px;
+  top: 1160px;
   left: 700px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -108,7 +140,7 @@ p{
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 2250px;
+  top: 2450px;
   left: 250px;
   background-color: #8ac5cc;
   border: 3px solid #fff;
@@ -123,7 +155,7 @@ p{
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 2350px;
+    top: 2550px;
     left: 800px;
     background-color: #ace8ef;
     border: 3px solid #fff;
@@ -138,7 +170,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 2400px;
+   top: 2600px;
    left: 1200px;
    text-align: center;
    background-color: #65bded;
@@ -156,7 +188,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 1880px;
+  top: 2080px;
   left: 200px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -166,7 +198,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 2010px;
+  top: 2210px;
   left: 675px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -176,7 +208,7 @@ p{
   width: 300px;
   height: 400px;
   position: absolute;
-  top: 3200px;
+  top: 3400px;
   left: 300px;
   background-color: #6ed3a3;
   border: 3px solid #fff;
@@ -191,7 +223,7 @@ p{
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 3300px;
+    top: 3500px;
     left: 800px;
     background-color: #acefcf;
     border: 3px solid #fff;
@@ -206,7 +238,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 3350px;
+   top: 3550px;
    left: 1200px;
    text-align: center;
    background-color: #52b750;
@@ -224,7 +256,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 2830px;
+  top: 3030px;
   left: 200px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
@@ -234,7 +266,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 2960px;
+  top: 3160px;
   left: 675px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -244,7 +276,7 @@ p{
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 4300px;
+  top: 4500px;
   left: 250px;
   background-color: #61ad6a;
   border: 3px solid #fff;
@@ -259,7 +291,7 @@ p{
     width: 300px;
     height: 200px;
     position: absolute;
-    top: 4400px;
+    top: 4600px;
     left: 800px;
     background-color: #a5e5ac;
     border: 3px solid #fff;
@@ -274,7 +306,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 4450px;
+   top: 4650px;
    left: 1200px;
    text-align: center;
    background-color: #c9ce39;
@@ -292,7 +324,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 3930px;
+  top: 4130px;
   left: 200px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -302,7 +334,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 4060px;
+  top: 4260px;
   left: 700px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -312,7 +344,7 @@ p{
   width: 500px;
   height: 300px;
   position: absolute;
-  top: 5400px;
+  top: 5600px;
   left: 250px;
   background-color: #85d170;
   border: 3px solid #fff;
@@ -327,7 +359,7 @@ p{
     width: 200px;
     height: 300px;
     position: absolute;
-    top: 5350px;
+    top: 5550px;
     left: 850px;
     background-color: #b3e5a5;
     border: 3px solid #fff;
@@ -342,7 +374,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 5450px;
+   top: 5650px;
    left: 1200px;
    text-align: center;
    background-color: #e29e3f;
@@ -360,7 +392,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 5000px;
+  top: 5200px;
   left: 250px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
@@ -370,7 +402,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 5000px;
+  top: 5200px;
   left: 700px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -380,7 +412,7 @@ p{
   width: 500px;
   height: 400px;
   position: absolute;
-  top: 6350px;
+  top: 6550px;
   left: 250px;
   background-color: #a4c665;
   border: 3px solid #fff;
@@ -395,7 +427,7 @@ p{
     width: 300px;
     height: 250px;
     position: absolute;
-    top: 6450px;
+    top: 6650px;
     left: 850px;
     background-color: #d0e8a4;
     border: 3px solid #fff;
@@ -410,7 +442,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 6500px;
+   top: 6700px;
    left: 1200px;
    text-align: center;
    background-color: #c66ae2;
@@ -428,7 +460,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 5950px;
+  top: 6150px;
   left: 250px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -438,7 +470,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 6100px;
+  top: 6300px;
   left: 750px;
   opacity: 0.8;
   animation: floats 7s ease-in-out infinite;
@@ -448,7 +480,7 @@ p{
   width: 450px;
   height: 350px;
   position: absolute;
-  top: 7500px;
+  top: 7700px;
   left: 250px;
   background-color: #d2d66b;
   border: 3px solid #fff;
@@ -463,7 +495,7 @@ p{
     width: 350px;
     height: 250px;
     position: absolute;
-    top: 7600px;
+    top: 7800px;
     left: 800px;
     background-color: #e3e5b0;
     border: 3px solid #fff;
@@ -478,7 +510,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 7600px;
+   top: 7800px;
    left: 1200px;
    text-align: center;
    background-color: #e28cc9;
@@ -496,7 +528,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 7100px;
+  top: 7300px;
   left: 225px;
   opacity: 0.8;
   animation: floats 6s ease-in-out infinite;
@@ -506,7 +538,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 7250px;
+  top: 7450px;
   left: 750px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
@@ -516,7 +548,7 @@ p{
   width: 400px;;
   height: 300px;;
   position: absolute;
-  top: 8600px;
+  top: 8800px;
   left: 250px;
   background-color: #e8ab43;
   border: 3px solid #fff;
@@ -531,7 +563,7 @@ p{
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 8600px;
+    top: 8800px;
     left: 800px;
     background-color: #e5d2b0;
     border: 3px solid #fff;
@@ -546,7 +578,7 @@ p{
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 8600px;
+   top: 8800px;
    left: 1200px;
    text-align: center;
    background-color: #a05858;
@@ -564,7 +596,7 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 8200px;
+  top: 8400px;
   left: 200px;
   opacity: 0.8;
   animation: floats 5s ease-in-out infinite;
@@ -574,18 +606,10 @@ p{
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 8250px;
+  top: 8450px;
   left: 700px;
   opacity: 0.8;
   animation: floats 4s ease-in-out infinite;
-}
-
-#crate1 {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  top: 9350px;
-  left: -90px;
 }
 
 @keyframes float {
@@ -675,7 +699,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 1450px;
+  top: 1650px;
   left: 300px;
 }
 
@@ -683,7 +707,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 2550px;
+  top: 2750px;
   left: 300px;
 }
 
@@ -691,7 +715,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 3550px;
+  top: 3750px;
   left: 300px;
 }
 
@@ -699,7 +723,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 4650px;
+  top: 4850px;
   left: 300px;
 }
 
@@ -707,7 +731,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 5600px;
+  top: 5800px;
   left: 300px;
 }
 
@@ -715,7 +739,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 6700px;
+  top: 6900px;
   left: 300px;
 }
 
@@ -723,7 +747,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 7800px;
+  top: 8000px;
   left: 300px;
 }
 
@@ -731,7 +755,7 @@ p{
   width: 1000px;
   height: 500px;
   position: absolute;
-  top: 8850px;
+  top: 9050px;
   left: 300px;
 }
 
