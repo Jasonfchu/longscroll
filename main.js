@@ -16,7 +16,9 @@ window.onscroll = function (){
 
     counter.style.top = 500 + fromTop + "px";
 
-    if (fromTop > 900){
+    if (fromTop > 0){
+      counter.style.backgroundImage = "url(images/year9.png)";
+    }  if (fromTop > 900){
       counter.style.backgroundImage = "url(images/year1.png)";
     } if (fromTop > 1800){
       counter.style.backgroundImage = "url(images/year2.png)";

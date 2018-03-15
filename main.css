@@ -799,12 +799,12 @@ p{
   left: 300px;
 }
 
-#plane9{
+#power-lines{
   width: 1200px;
-  height: 500px;
+  height: 300px;
   position: absolute;
-  top: 9450px;
-  left: 300px;
+  top: 9710px;
+  left: 0px;
 }
 
 .x1 {
@@ -981,12 +981,6 @@ p{
   opacity: 0.8;
 }
 
-.x27 {
-	-webkit-animation: moveplaness 10s linear infinite;
-	-moz-animation: moveplaness 10s linear infinite;
-	-o-animation: moveplaness 10s linear infinite;
-}
-
 @-webkit-keyframes moveclouds {
 	0% {margin-left: 1100px;}
 	100% {margin-left: -1100px;}
@@ -1024,17 +1018,4 @@ p{
 @-o-keyframes moveplanes {
 	0% {margin-left: 1300px;}
 	100% {margin-left: -1400px;}
-}
-
-@-webkit-keyframes moveplaness {
-	0% {margin-left: 1300px;}
-	100% {margin-left: -1600px;}
-}
-@-moz-keyframes moveplaness {
-	0% {margin-left: 1300px;}
-	100% {margin-left: -1600px;}
-}
-@-o-keyframes moveplaness {
-	0% {margin-left: 1300px;}
-	100% {margin-left: -1600px;}
 }
