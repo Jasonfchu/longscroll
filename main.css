@@ -8,6 +8,12 @@ p{
   font-family: 'Quicksand', sans-serif;
 }
 
+h3{
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
 #counter {
   position: absolute;
   top: 300px;
@@ -23,6 +29,14 @@ p{
   margin: 0 auto;
   width: 1200px;
   height: 10000px;
+  padding: 0;
+}
+
+#canvas2 {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 2000px;
   padding: 0;
 }
 
@@ -807,6 +821,14 @@ p{
   left: 0px;
 }
 
+#plane9{
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 300px;
+  left: 0px;
+}
+
 .x1 {
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
@@ -979,6 +1001,12 @@ p{
 	-moz-animation: movebirds 13s linear infinite;
 	-o-animation: movebirds 13s linear infinite;
   opacity: 0.8;
+}
+
+.x27 {
+	-webkit-animation: moveplanes 15s linear infinite;
+	-moz-animation: moveplanes 15s linear infinite;
+	-o-animation: moveplanes 15s linear infinite;
 }
 
 @-webkit-keyframes moveclouds {
